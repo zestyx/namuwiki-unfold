@@ -16,7 +16,7 @@ function namuwiki_unfold() {
         );
         t.css(
             'cssText',
-            'background:#EEE;padding:1px;border:1px solid #CCC;color:#666'
+            'background:#EEE;padding:1px;border:1px solid #CCC;color:#666;white-space:normal;vertical-align:baseline;'
         );
         t.attr('data-href', t.attr('href'));
         t.removeAttr('href');
